@@ -10,7 +10,7 @@ Sistema de banca digital simulada construido para gestionar grandes volúmenes d
 ##  Resumen Ejecutivo
 NeoBank V2.0 es un pipeline de ingeniería de datos diseñado para simular un entorno bancario real. El proyecto integra una **Capa Transaccional (OLTP)** blindada contra inconsistencias y una **Capa Analítica (OLAP)** para el reporte de métricas financieras.
 
-## ⚡Stack Tecnológico
+## Stack Tecnológico
 * **Orquestación:** Python 3.x.
 * **Persistencia:** MySQL 8.0 (InnoDB).
 * **Transformación:** Pandas & NumPy para procesamiento vectorizado.
