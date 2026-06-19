@@ -23,3 +23,10 @@ NeoBank V2.0 es un pipeline de ingeniería de datos diseñado para simular un en
 3. **Configuración:** Edita `ETL/generador_DB_banco.py` con tus credenciales:
    ```python
    USER = "root"; PASSWORD = "tu_password"; DB = "BancoDB"
+
+## Análisis de Implementación
+Uno de los aprendizajes clave de esta implementación fue la gestión de excepciones en el pipeline de carga. La validación de tipos en la capa de transformación demostró ser crítica para prevenir el desbordamiento de datos y asegurar que el modelo final sea un 'Single Source of Truth' confiable. Este proyecto refuerza mi enfoque en la construcción de sistemas tolerantes a fallos y mantenibles.
+
+## Roadmap de Mejora
+* Próximos pasos: Implementar un contenedor Docker para aislar el entorno de la base de datos y estandarizar el despliegue.
+* Próximos pasos: Integrar un orquestador (como Airflow o Prefect) para programar las ejecuciones automatizadas del ETL.
